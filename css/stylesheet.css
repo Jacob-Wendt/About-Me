@@ -1,0 +1,35 @@
+#header {
+    text-align: center;
+    background-color: rgb(200, 200, 200);
+    }
+    #header h1 {
+      margin-bottom: 0px;
+      margin-top: 0%;
+    }
+  #side {
+    background-color: grey;
+    width: 20%;
+    height: 1058px;
+    float: left;
+  }
+  #side p {
+    margin-bottom: 0px;
+  }
+  #footer {
+    background-color: rgb(200, 200, 200);
+    margin-left: 245px;
+  }
+  #footer p {
+    margin-top: 0px;
+    margin-left: 300px;
+    padding: 20px;
+  }
+  #main {
+    height: 1000px;
+    background-color: rgb(175, 175, 175);
+  }
+  #main p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  
