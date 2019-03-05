@@ -1,3 +1,7 @@
+body {
+  margin: 0;
+  background-color: rgb(225, 225, 225);
+}
 #header {
     text-align: center;
     background-color: rgb(200, 200, 200);
@@ -5,31 +9,40 @@
     #header h1 {
       margin-bottom: 0px;
       margin-top: 0%;
+      padding: 30px;
     }
   #side {
     background-color: grey;
     width: 20%;
-    height: 1058px;
-    float: left;
-  }
-  #side p {
-    margin-bottom: 0px;
-  }
-  #footer {
-    background-color: rgb(200, 200, 200);
-    margin-left: 245px;
-  }
-  #footer p {
-    margin-top: 0px;
-    margin-left: 300px;
-    padding: 20px;
-  }
-  #main {
     height: 1000px;
+    float: left;
+    margin: 0;
+    border-right: 20px solid rgb(175, 175, 175);
+  }
+  #bar-1 {
+    margin: 0;
     background-color: rgb(175, 175, 175);
+    height: 20px;
   }
-  #main p {
-    margin-top: 0px;
-    margin-bottom: 0px;
-  }
-  
+ #side a {
+   text-align: center;
+   font-size: 40px;
+   color: black
+ }
+ #list-1 {
+  background-color: grey;
+  width: 50em;
+  display: inline-block;
+  margin: 25px;
+  height: 55em;
+  border-right: 20px solid rgb(175, 175, 175);
+  border-left: 20px solid rgb(175, 175, 175);
+ }
+
+ #list-1 h2{
+   text-align: center;
+   font-size: 35px
+ }
+ #list-1 ol{
+margin: 20px;
+}
