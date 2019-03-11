@@ -59,12 +59,15 @@ main {
     position: absolute;
 }
 .a {
-    height: 50%;
-    margin: 15px;
-}
-.b {
-    float: left;
     width: 45%;
-    height: 100%;
-    margin: 15px;
+    margin: 14px;
+    height: 50%;
+    float: left;
+}
+.topleft {
+    width: 45%;
+    margin: 14px;
+    height: 50%;
+    float: left;
+    background-color: #f9f9f9
 }
