@@ -3,65 +3,71 @@
 var age;
 age = confirm("I am 20 years old")
 if (age === true) {
-  console.log ("correct");
+  document.getElementById("1").innerHTML = "Correct";
 }
 else {
-  console.log ("false");
+  document.getElementById("1").innerHTML = "Incorrect";
 }
 
 //(QUESTION 2)
 var eyes;
 eyes = confirm("I have blue eyes")
 if (eyes === true) {
-  console.log ("correct");
+  document.getElementById("2").innerHTML = "Correct";
 }
 else {
-  console.log ("false");
+  document.getElementById("2").innerHTML = "Incorrect";
 }
 
 //(QUESTION 3)
 var piano;
 piano = confirm("I can play piano")
 if (piano === false) {
-  console.log ("correct");
+  document.getElementById("3").innerHTML = "Correct";
 }
 else {
-  console.log ("false");
+  document.getElementById("3").innerHTML = "Incorrect";
 }
 
 //(QUESTION 4)
 var pets;
 pets = confirm("I have no pets")
 if (pets === true) {
-  console.log ("correct");
+  document.getElementById("4").innerHTML = "Correct";
 }
 else {
-  console.log ("false");
+  document.getElementById("4").innerHTML = "Incorrect";
 }
 
 //(QUESTION 5) 
 var track;
 track = confirm("I ran track in highschool")
 if (track === true) {
-  console.log ("correct");
+  document.getElementById("5").innerHTML = "Correct";
 }
 else {
-  console.log ("false");
+  document.getElementById("5").innerHTML = "Incorrect";
 }
 
 //(QUESTION 6) 
-var input = prompt("Guess my number")
-for (input = 0; input = 9;) {
-  if (input == 9) {
-    console.log ("correct!")
+for ( var i=0; i<=10; i++) {
+  var input = parseInt(prompt("my number in between 1 & 10"));
+  if (input < 9) {
+    alert ("higher");
   }
-  else if (input<9) {
-    console.log ("Higher")
+  else if (input > 9) {
+    alert ("lower");
   }
-  else if (input>9) {
-    console.log ("Lower")
+  else if (input === 9) {
+    alert ("correct");
+    var correct = true;
+  }
+  if (correct) {
+    
+    break;
   }
 }
+
 //(QUESTION 7) 
 var array = []
       
