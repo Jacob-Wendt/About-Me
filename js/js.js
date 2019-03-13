@@ -1,60 +1,67 @@
 "use strict";
+//(QUESTION 1)
+var age;
+age = confirm("I am 20 years old")
+if (age === true) {
+  console.log ("correct");
+}
+else {
+  console.log ("false");
+}
 
-function a() {
-  var favoriteColor;
-  favoriteColor = prompt("Is my favorite color blue?");
-  if (favoriteColor === "yes") {
-      document.getElementById("displaya").innerHTML = "Correct!";
+//(QUESTION 2)
+var eyes;
+eyes = confirm("I have blue eyes")
+if (eyes === true) {
+  console.log ("correct");
+}
+else {
+  console.log ("false");
+}
+
+//(QUESTION 3)
+var piano;
+piano = confirm("I can play piano")
+if (piano === false) {
+  console.log ("correct");
+}
+else {
+  console.log ("false");
+}
+
+//(QUESTION 4)
+var pets;
+pets = confirm("I have no pets")
+if (pets === true) {
+  console.log ("correct");
+}
+else {
+  console.log ("false");
+}
+
+//(QUESTION 5) 
+var track;
+track = confirm("I ran track in highschool")
+if (track === true) {
+  console.log ("correct");
+}
+else {
+  console.log ("false");
+}
+
+//(QUESTION 6) 
+var input = prompt("Guess my number")
+for (input = 0; input = 9;) {
+  if (input == 9) {
+    console.log ("correct!")
   }
-  else {
-      document.getElementById("displaya").innerHTML = "False!";
-    }
+  else if (input<9) {
+    console.log ("Higher")
   }
-
-  function b() {
-    var favoriteColor;
-    favoriteColor = prompt("Am I 23 years old");
-    if (favoriteColor === "no") {
-        document.getElementById("displayb").innerHTML = "Correct!";
-    }
-    else {
-        document.getElementById("displayb").innerHTML = "False!";
-      }
-    }
-
-  function c() {
-    var favoriteColor;
-    favoriteColor = prompt("Is my name Jacob?");
-    if (favoriteColor === "yes") {
-        document.getElementById("displayc").innerHTML = "Correct!";
-    }
-    else {
-        document.getElementById("displayc").innerHTML = "False!";
-      }
-    }
-
-  function d() {
-    var favoriteColor;
-    favoriteColor = prompt("Do I have brown eyes");
-    if (favoriteColor === "no") {
-        document.getElementById("displaya").innerHTML = "Correct!";
-    }
-    else {
-        document.getElementById("displaya").innerHTML = "False!";
-      }
-    }
-    
-  function e() {
-    var favoriteColor;
-    favoriteColor = prompt("I have a pet cat");
-    if (favoriteColor === "yes") {
-        document.getElementById("displaya").innerHTML = "Correct!";
-    }
-    else {
-        document.getElementById("displaya").innerHTML = "False!";
-      }
-    }
-      
-              
-  
+  else if (input>9) {
+    console.log ("Lower")
+  }
+}
+//(QUESTION 7) 
+var array = []
       
