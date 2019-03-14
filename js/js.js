@@ -50,7 +50,7 @@ else {
 }
 
 //(QUESTION 6) 
-for ( var i=0; i<=10; i++) {
+for ( var i=0; i<=4; i++) {
   var input = parseInt(prompt("my number in between 1 & 10"));
   if (input < 9) {
     alert ("higher");
@@ -69,5 +69,18 @@ for ( var i=0; i<=10; i++) {
 }
 
 //(QUESTION 7) 
-var array = []
-      
+for ( var i=0; i<=6; i++) {
+  correct = false
+  var input1 = prompt("name one month");
+  if (input1 !== "january" || "febuary" || "march" ) {
+    alert ("Try again");
+  }
+  else if (input1 == "january" || "febuary" || "march" ) {
+    alert ("correct");
+    var correct = true;
+  }
+  if (correct) {
+    
+    break;
+  }
+}
