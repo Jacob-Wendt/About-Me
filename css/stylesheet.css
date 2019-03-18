@@ -4,11 +4,17 @@
     box-sizing: border-box;
 }
 /*TOP BANNER*/
-header.listhead {
+.listHead {
     position: relative;
     width: 100%;
     height: 40%;
     background-image: linear-gradient(to left, rgba(255, 255, 255, 0), rgba(131, 255, 59, 0.911));
+}
+header.questHead {
+    position: relative;
+    width: 100%;
+    height: 40%;
+    background-image: linear-gradient(to left, rgba(255, 255, 255, 0), rgba(255, 59, 190, 0.911));
 }
 header {
     position: relative;
@@ -68,9 +74,11 @@ main {
 .topleft {
     width: 45%;
     margin: 14px;
-    height: 50%;
+    height: 60%;
     float: left;
     background-color: #f9f9f9;
     box-shadow: 0 5px 5px rgba(0, 0, 0, 0.589);
     border-radius: 30px;
+}
+.img {
 }
